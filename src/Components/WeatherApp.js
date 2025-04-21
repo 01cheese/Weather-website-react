@@ -5,7 +5,7 @@ import Recommendation from "./Recommendation";
 import VideoBackground from "./VideoBackground";
 import "./../App.css";
 
-const API_KEY = '69605561ac6622711e149e588ecd5411'
+const API_KEY = process.env.REACT_APP_API_KEY;
 
 // const randomCities = ["Paris", "New York", "Tokyo", "Sydney", "Moscow", "Rio", "Berlin", "Toronto", "Rome", "Istanbul"];
 
