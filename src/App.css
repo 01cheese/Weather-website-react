@@ -1,38 +1,222 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Анимации для плавных переходов текста */
+.weather__city, .weather__temperature, .weather__forecast, .weather__minmax, .weather__realfeel, .weather__humidity, .weather__wind, .weather__pressure, .weather__convenience {
+  transform: translateY(20px);
+  transition: all 0.5s ease;
+}
+
+.weather__city.show, .weather__temperature.show, .weather__forecast.show, .weather__minmax.show, .weather__realfeel.show, .weather__humidity.show, .weather__wind.show, .weather__pressure.show, .weather__convenience.show {
+
+  transform: translateY(0);
+
+}
+
+/* Плавное переключение видео */
+.weather__background {
+  transition: opacity 1s ease-in-out;
+  opacity: 0;
+}
+
+.weather__background.show {
+  opacity: 1;
+}
+
+/* Стиль для блока рекомендаций */
+.weather__convenience {
+  background: #2a2a2a;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+  font-size: 1rem;
   text-align: center;
+  display: none;  /* Скрываем до получения данных */
+  transition: all 0.5s ease-in-out;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.weather__convenience.show {
+  display: block;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.container {
+  background: #171717;
+  color: #fff;
+  padding: 2rem;
+  width: 40%;
+  margin: 4rem auto;
+  border-radius: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.weather__header {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+}
+
+input {
+  border: none;
+  background: #1e1e1e;
+  outline: none;
+  color: #fff;
+  padding: 0.5rem 2.5rem;
+  border-radius: 5px;
+}
+
+input::placeholder {
+  color: #fff;
+}
+
+.weather__search {
+  position: relative;
+}
+
+.weather__search i {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  font-size: 15px;
+  color: #fff;
+}
+
+.weather__units {
+  font-size: 1.5rem;
+}
+
+.weather__units span {
+  cursor: pointer;
+}
+
+.weather__units span.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+
+.weather__units span:first-child {
+  margin-right: 0.5rem;
+}
+
+.weather__body {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.weather__datetime {
+  margin-bottom: 2rem;
+  font-size: 14px;
+}
+
+.weather__forecast {
+  background: #1e1e1e;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 30px;
+}
+
+.weather__icon img {
+  width: 100px;
+}
+
+.weather__temperature {
+  font-size: 1.75rem;
+}
+
+.weather__minmax {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.weather__minmax p {
+  font-size: 14px;
+  margin: 0.5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.weather__info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+  margin-top: 3rem;
+}
+
+.weather__card {
+  display: flex;
+  align-items: center;
+  background: #1e1e1e;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.weather__card i {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+
+.weather__card p {
+  font-size: 14px;
+}
+
+.search__suggestions {
+  position: absolute;
+  top: 50px;
+  background-color: #1e1e1e;
+  color: #fff;
+  width: 100%;
+  max-height: 150px;
+  overflow-y: auto;
+  border-radius: 5px;
+  z-index: 10;
+}
+
+.search__suggestions p {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.search__suggestions p:hover {
+  background-color: #333;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+.weather__background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+
+@media(max-width: 936px){
+  .container {
+    width: 90%;
   }
-  to {
-    transform: rotate(360deg);
+
+  .weather__header {
+    flex-direction: column;
+  }
+
+  .weather__units {
+    margin-top: 1rem;
+  }
+}
+
+
+@media(max-width: 400px){
+  .weather__info {
+    grid-template-columns: none;
   }
 }
