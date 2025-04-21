@@ -3,6 +3,9 @@ import React from "react";
 
 function WeatherInfo({ data, units, city }) {
     const iconUrl = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
+    function capitalizeLetter(str) {
+        return str[0].toUpperCase() + str.slice(1);
+    }
 
 
     return (
@@ -10,7 +13,7 @@ function WeatherInfo({ data, units, city }) {
         <div className="weather__body">
             <h1 >{data.name}, {convertCountry(data.sys.country)}</h1>
             <div className="weather__datetime">{formatTime(data.dt, data.timezone)}</div>
-            <div><p>{data.weather[0].main}</p></div>
+            <div><p>{capitalizeLetter(data.weather[0].description)}</p></div>
             <div className="weather__icon"><img src={iconUrl} alt="Weather Icon" /></div>
             <p className="weather__temperature">{data.main.temp.toFixed()}°</p>
             <div className="weather__minmax">
