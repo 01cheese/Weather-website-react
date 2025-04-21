@@ -4,384 +4,439 @@
     "main": "Thunderstorm",
     "description": "thunderstorm with light rain",
     "icon": "11d",
-    "fancyDescription": "A light thunderstorm with a romantic touch of rain rumbling in the skies."
+    "fancyDescription": "A light thunderstorm with a romantic touch of rain rumbling in the skies.",
+    "clothing": "Rain boots, water-resistant backpack, umbrella"
   },
   {
     "id": 201,
     "main": "Thunderstorm",
     "description": "thunderstorm with rain",
     "icon": "11d",
-    "fancyDescription": "Thunderstorm with a steady rain — dramatic skies with the sound of thunder."
+    "fancyDescription": "Thunderstorm with a steady rain \u2014 dramatic skies with the sound of thunder.",
+    "clothing": "Rain boots, water-resistant backpack, hooded poncho"
   },
   {
     "id": 202,
     "main": "Thunderstorm",
     "description": "thunderstorm with heavy rain",
     "icon": "11d",
-    "fancyDescription": "Heavy rain and thunder — nature’s symphony in full force."
+    "fancyDescription": "Heavy rain and thunder \u2014 nature\u2019s symphony in full force.",
+    "clothing": "Water-resistant backpack, waterproof jacket, umbrella"
   },
   {
     "id": 210,
     "main": "Thunderstorm",
     "description": "light thunderstorm",
     "icon": "11d",
-    "fancyDescription": "Soft thunder rolls — a warning from above."
+    "fancyDescription": "Soft thunder rolls \u2014 a warning from above.",
+    "clothing": "Water-resistant backpack, quick-dry pants, hooded poncho"
   },
   {
     "id": 211,
     "main": "Thunderstorm",
     "description": "thunderstorm",
     "icon": "11d",
-    "fancyDescription": "Classic thunderstorm — stay safe and enjoy the light show."
+    "fancyDescription": "Classic thunderstorm \u2014 stay safe and enjoy the light show.",
+    "clothing": "Water-resistant backpack, hooded poncho, umbrella"
   },
   {
     "id": 212,
     "main": "Thunderstorm",
     "description": "heavy thunderstorm",
     "icon": "11d",
-    "fancyDescription": "Intense thunderstorm — the sky is roaring with energy."
+    "fancyDescription": "Intense thunderstorm \u2014 the sky is roaring with energy.",
+    "clothing": "Rain boots, quick-dry pants, hooded poncho"
   },
   {
     "id": 221,
     "main": "Thunderstorm",
     "description": "ragged thunderstorm",
     "icon": "11d",
-    "fancyDescription": "Chaotic thunderstorm — lightning and thunder in an unpredictable dance."
+    "fancyDescription": "Chaotic thunderstorm \u2014 lightning and thunder in an unpredictable dance.",
+    "clothing": "Rain boots, umbrella, waterproof jacket"
   },
   {
     "id": 230,
     "main": "Thunderstorm",
     "description": "thunderstorm with light drizzle",
     "icon": "11d",
-    "fancyDescription": "Thunderstorm with gentle drizzle — moody and mysterious."
+    "fancyDescription": "Thunderstorm with gentle drizzle \u2014 moody and mysterious.",
+    "clothing": "Quick-dry pants, rain boots, hooded poncho"
   },
   {
     "id": 231,
     "main": "Thunderstorm",
     "description": "thunderstorm with drizzle",
     "icon": "11d",
-    "fancyDescription": "Thunderstorm with drizzle — soft rain meets roaring skies."
+    "fancyDescription": "Thunderstorm with drizzle \u2014 soft rain meets roaring skies.",
+    "clothing": "Umbrella, waterproof jacket, rain boots"
   },
   {
     "id": 232,
     "main": "Thunderstorm",
     "description": "thunderstorm with heavy drizzle",
     "icon": "11d",
-    "fancyDescription": "A heavy drizzle and thunder — stormy and surreal."
+    "fancyDescription": "A heavy drizzle and thunder \u2014 stormy and surreal.",
+    "clothing": "Quick-dry pants, waterproof jacket, umbrella"
   },
   {
     "id": 300,
     "main": "Drizzle",
     "description": "light intensity drizzle",
     "icon": "09d",
-    "fancyDescription": "Light drizzle — a barely-there mist, like a whisper of rain."
+    "fancyDescription": "Light drizzle \u2014 a barely-there mist, like a whisper of rain.",
+    "clothing": "Quick-dry pants, hooded poncho, waterproof jacket"
   },
   {
     "id": 301,
     "main": "Drizzle",
     "description": "drizzle",
     "icon": "09d",
-    "fancyDescription": "Drizzle — calm and damp, the sky is gently crying."
+    "fancyDescription": "Drizzle \u2014 calm and damp, the sky is gently crying.",
+    "clothing": "Waterproof jacket, water-resistant backpack, quick-dry pants"
   },
   {
     "id": 302,
     "main": "Drizzle",
     "description": "heavy intensity drizzle",
     "icon": "09d",
-    "fancyDescription": "Heavy drizzle — enough to soak you without a downpour."
+    "fancyDescription": "Heavy drizzle \u2014 enough to soak you without a downpour.",
+    "clothing": "Water-resistant backpack, waterproof jacket, umbrella"
   },
   {
     "id": 310,
     "main": "Drizzle",
     "description": "light intensity drizzle rain",
     "icon": "09d",
-    "fancyDescription": "Soft drizzle rain — floating mist and moist air."
+    "fancyDescription": "Soft drizzle rain \u2014 floating mist and moist air.",
+    "clothing": "Water-resistant backpack, waterproof jacket, hooded poncho"
   },
   {
     "id": 311,
     "main": "Drizzle",
     "description": "drizzle rain",
     "icon": "09d",
-    "fancyDescription": "Drizzle rain — consistent and calming."
+    "fancyDescription": "Drizzle rain \u2014 consistent and calming.",
+    "clothing": "Quick-dry pants, hooded poncho, water-resistant backpack"
   },
   {
     "id": 312,
     "main": "Drizzle",
     "description": "heavy intensity drizzle rain",
     "icon": "09d",
-    "fancyDescription": "Heavy drizzle rain — thick and endless like a foggy dream."
+    "fancyDescription": "Heavy drizzle rain \u2014 thick and endless like a foggy dream.",
+    "clothing": "Water-resistant backpack, waterproof jacket, quick-dry pants"
   },
   {
     "id": 313,
     "main": "Drizzle",
     "description": "shower rain and drizzle",
     "icon": "09d",
-    "fancyDescription": "Shower rain and drizzle — short bursts of gentle rain."
+    "fancyDescription": "Shower rain and drizzle \u2014 short bursts of gentle rain.",
+    "clothing": "Water-resistant backpack, quick-dry pants, hooded poncho"
   },
   {
     "id": 314,
     "main": "Drizzle",
     "description": "heavy shower rain and drizzle",
     "icon": "09d",
-    "fancyDescription": "Heavy showers with drizzle — moody weather for a cozy day inside."
+    "fancyDescription": "Heavy showers with drizzle \u2014 moody weather for a cozy day inside.",
+    "clothing": "Quick-dry pants, umbrella, rain boots"
   },
   {
     "id": 321,
     "main": "Drizzle",
     "description": "shower drizzle",
     "icon": "09d",
-    "fancyDescription": "Shower drizzle — soft droplets falling in rhythm."
+    "fancyDescription": "Shower drizzle \u2014 soft droplets falling in rhythm.",
+    "clothing": "Waterproof jacket, umbrella, quick-dry pants"
   },
   {
     "id": 500,
     "main": "Rain",
     "description": "light rain",
     "icon": "10d",
-    "fancyDescription": "Light rain — refreshing and tranquil."
+    "fancyDescription": "Light rain \u2014 refreshing and tranquil.",
+    "clothing": "Rain boots, waterproof jacket, umbrella"
   },
   {
     "id": 501,
     "main": "Rain",
     "description": "moderate rain",
     "icon": "10d",
-    "fancyDescription": "Moderate rain — perfect background noise for deep thoughts."
+    "fancyDescription": "Moderate rain \u2014 perfect background noise for deep thoughts.",
+    "clothing": "Waterproof jacket, hooded poncho, quick-dry pants"
   },
   {
     "id": 502,
     "main": "Rain",
     "description": "heavy intensity rain",
     "icon": "10d",
-    "fancyDescription": "Heavy rain — loud, soaking, and cleansing."
+    "fancyDescription": "Heavy rain \u2014 loud, soaking, and cleansing.",
+    "clothing": "Rain boots, umbrella, quick-dry pants"
   },
   {
     "id": 503,
     "main": "Rain",
     "description": "very heavy rain",
     "icon": "10d",
-    "fancyDescription": "Very heavy rain — like walking through a waterfall."
+    "fancyDescription": "Very heavy rain \u2014 like walking through a waterfall.",
+    "clothing": "Hooded poncho, rain boots, waterproof jacket"
   },
   {
     "id": 504,
     "main": "Rain",
     "description": "extreme rain",
     "icon": "10d",
-    "fancyDescription": "Extreme rain — torrential, fierce, and unstoppable."
+    "fancyDescription": "Extreme rain \u2014 torrential, fierce, and unstoppable.",
+    "clothing": "Water-resistant backpack, rain boots, waterproof jacket"
   },
   {
     "id": 511,
     "main": "Rain",
     "description": "freezing rain",
     "icon": "13d",
-    "fancyDescription": "Freezing rain — slick, cold, and dangerous underfoot."
+    "fancyDescription": "Freezing rain \u2014 slick, cold, and dangerous underfoot.",
+    "clothing": "Waterproof boots, thermal jacket, gloves"
   },
   {
     "id": 520,
     "main": "Rain",
     "description": "light intensity shower rain",
     "icon": "09d",
-    "fancyDescription": "Light shower rain — quick, playful sprinkles from the sky."
+    "fancyDescription": "Light shower rain \u2014 quick, playful sprinkles from the sky.",
+    "clothing": "Quick-dry pants, hooded poncho, waterproof jacket"
   },
   {
     "id": 521,
     "main": "Rain",
     "description": "shower rain",
     "icon": "09d",
-    "fancyDescription": "Shower rain — here one moment, gone the next."
+    "fancyDescription": "Shower rain \u2014 here one moment, gone the next.",
+    "clothing": "Hooded poncho, waterproof jacket, rain boots"
   },
   {
     "id": 522,
     "main": "Rain",
     "description": "heavy intensity shower rain",
     "icon": "09d",
-    "fancyDescription": "Intense shower rain — sudden and soaking."
+    "fancyDescription": "Intense shower rain \u2014 sudden and soaking.",
+    "clothing": "Umbrella, waterproof jacket, rain boots"
   },
   {
     "id": 531,
     "main": "Rain",
     "description": "ragged shower rain",
     "icon": "09d",
-    "fancyDescription": "Ragged showers — unpredictable bursts of rain and wind."
+    "fancyDescription": "Ragged showers \u2014 unpredictable bursts of rain and wind.",
+    "clothing": "Water-resistant backpack, umbrella, rain boots"
   },
   {
     "id": 600,
     "main": "Snow",
     "description": "light snow",
     "icon": "13d",
-    "fancyDescription": "Light snow — gentle flakes dancing through the air."
+    "fancyDescription": "Light snow \u2014 gentle flakes dancing through the air.",
+    "clothing": "Gloves, knit hat, thermal underwear"
   },
   {
     "id": 601,
     "main": "Snow",
     "description": "snow",
     "icon": "13d",
-    "fancyDescription": "Snow — a calm, white blanket covers everything."
+    "fancyDescription": "Snow \u2014 a calm, white blanket covers everything.",
+    "clothing": "Fleece-lined pants, gloves, waterproof boots"
   },
   {
     "id": 602,
     "main": "Snow",
     "description": "heavy snow",
     "icon": "13d",
-    "fancyDescription": "Heavy snow — thick flakes falling in silence."
+    "fancyDescription": "Heavy snow \u2014 thick flakes falling in silence.",
+    "clothing": "Fleece-lined pants, gloves, waterproof boots"
   },
   {
     "id": 611,
     "main": "Snow",
     "description": "sleet",
     "icon": "13d",
-    "fancyDescription": "Sleet — frozen droplets tapping on your coat."
+    "fancyDescription": "Sleet \u2014 frozen droplets tapping on your coat.",
+    "clothing": "Thermal jacket, knit hat, gloves"
   },
   {
     "id": 612,
     "main": "Snow",
     "description": "light shower sleet",
     "icon": "13d",
-    "fancyDescription": "Light shower sleet — a chilly, mixed bag from the clouds."
+    "fancyDescription": "Light shower sleet \u2014 a chilly, mixed bag from the clouds.",
+    "clothing": "Waterproof boots, thermal underwear, gloves"
   },
   {
     "id": 613,
     "main": "Snow",
     "description": "shower sleet",
     "icon": "13d",
-    "fancyDescription": "Shower sleet — brief, cold, and sharp."
+    "fancyDescription": "Shower sleet \u2014 brief, cold, and sharp.",
+    "clothing": "Waterproof boots, thermal underwear, fleece-lined pants"
   },
   {
     "id": 615,
     "main": "Snow",
     "description": "light rain and snow",
     "icon": "13d",
-    "fancyDescription": "Light rain and snow — winter is undecided today."
+    "fancyDescription": "Light rain and snow \u2014 winter is undecided today.",
+    "clothing": "Thermal underwear, thermal jacket, woolen scarf"
   },
   {
     "id": 616,
     "main": "Snow",
     "description": "rain and snow",
     "icon": "13d",
-    "fancyDescription": "Rain and snow — a cold clash of the seasons."
+    "fancyDescription": "Rain and snow \u2014 a cold clash of the seasons.",
+    "clothing": "Gloves, woolen scarf, waterproof boots"
   },
   {
     "id": 620,
     "main": "Snow",
     "description": "light shower snow",
     "icon": "13d",
-    "fancyDescription": "Light shower snow — fluttering and brief like a snow whisper."
+    "fancyDescription": "Light shower snow \u2014 fluttering and brief like a snow whisper.",
+    "clothing": "Fleece-lined pants, woolen scarf, knit hat"
   },
   {
     "id": 621,
     "main": "Snow",
     "description": "shower snow",
     "icon": "13d",
-    "fancyDescription": "Shower snow — playful bursts of snow from the sky."
+    "fancyDescription": "Shower snow \u2014 playful bursts of snow from the sky.",
+    "clothing": "Thermal underwear, waterproof boots, woolen scarf"
   },
   {
     "id": 622,
     "main": "Snow",
     "description": "heavy shower snow",
     "icon": "13d",
-    "fancyDescription": "Heavy shower snow — thick waves of snow sweeping through."
+    "fancyDescription": "Heavy shower snow \u2014 thick waves of snow sweeping through.",
+    "clothing": "Knit hat, fleece-lined pants, gloves"
   },
   {
     "id": 701,
     "main": "Mist",
     "description": "mist",
     "icon": "50d",
-    "fancyDescription": "Misty air — dreamy and quiet surroundings."
+    "fancyDescription": "Misty air \u2014 dreamy and quiet surroundings.",
+    "clothing": "Comfortable sneakers, light hoodie, visibility gear"
   },
   {
     "id": 711,
     "main": "Smoke",
     "description": "smoke",
     "icon": "50d",
-    "fancyDescription": "Smoke in the air — hazy and mysterious."
+    "fancyDescription": "Smoke in the air \u2014 hazy and mysterious.",
+    "clothing": "Breathable long-sleeve shirt, boots, face mask"
   },
   {
     "id": 721,
     "main": "Haze",
     "description": "haze",
     "icon": "50d",
-    "fancyDescription": "Hazy view — everything seems just out of focus."
+    "fancyDescription": "Hazy view \u2014 everything seems just out of focus.",
+    "clothing": "Weather-appropriate outerwear, comfortable shoes, optional accessories"
   },
   {
     "id": 731,
     "main": "Dust",
     "description": "sand/dust whirls",
     "icon": "50d",
-    "fancyDescription": "Dust whirls — swirling particles dancing in the wind."
+    "fancyDescription": "Dust whirls \u2014 swirling particles dancing in the wind.",
+    "clothing": "Hat, breathable long-sleeve shirt, face mask"
   },
   {
     "id": 741,
     "main": "Fog",
     "description": "fog",
     "icon": "50d",
-    "fancyDescription": "Thick fog — visibility is low, time for caution."
+    "fancyDescription": "Thick fog \u2014 visibility is low, time for caution.",
+    "clothing": "Comfortable sneakers, jeans, visibility gear"
   },
   {
     "id": 751,
     "main": "Sand",
     "description": "sand",
     "icon": "50d",
-    "fancyDescription": "Sand in the air — dry and windblown."
+    "fancyDescription": "Sand in the air \u2014 dry and windblown.",
+    "clothing": "Boots, sunglasses, face mask"
   },
   {
     "id": 761,
     "main": "Dust",
     "description": "dust",
     "icon": "50d",
-    "fancyDescription": "Dusty air — everything feels a little grittier."
+    "fancyDescription": "Dusty air \u2014 everything feels a little grittier.",
+    "clothing": "Sunglasses, hat, breathable long-sleeve shirt"
   },
   {
     "id": 762,
     "main": "Ash",
     "description": "volcanic ash",
     "icon": "50d",
-    "fancyDescription": "Volcanic ash — rare, eerie, and dramatic skies."
+    "fancyDescription": "Volcanic ash \u2014 rare, eerie, and dramatic skies.",
+    "clothing": "Hat, breathable long-sleeve shirt, sunglasses"
   },
   {
     "id": 771,
     "main": "Squall",
     "description": "squalls",
     "icon": "50d",
-    "fancyDescription": "Squalls — wild gusts and shifting winds."
+    "fancyDescription": "Squalls \u2014 wild gusts and shifting winds.",
+    "clothing": "Joggers, base layer, sports shoes"
   },
   {
     "id": 781,
     "main": "Tornado",
     "description": "tornado",
     "icon": "50d",
-    "fancyDescription": "Tornado — nature’s spinning fury, seek shelter!"
+    "fancyDescription": "Tornado \u2014 nature\u2019s spinning fury, seek shelter!",
+    "clothing": "Base layer, joggers, sports shoes"
   },
   {
     "id": 800,
     "main": "Clear",
     "description": "clear sky",
     "icon": "01d",
-    "fancyDescription": "Clear skies — sunny and perfect for adventures."
+    "fancyDescription": "Clear skies \u2014 sunny and perfect for adventures.",
+    "clothing": "Flip-flops, sunglasses, tank top"
   },
   {
     "id": 801,
     "main": "Clouds",
     "description": "few clouds: 11-25%",
     "icon": "02d",
-    "fancyDescription": "Few clouds — mostly sunny with character."
+    "fancyDescription": "Few clouds \u2014 mostly sunny with character.",
+    "clothing": "Comfortable sneakers, jeans, light hoodie"
   },
   {
     "id": 802,
     "main": "Clouds",
     "description": "scattered clouds: 25-50%",
     "icon": "03d",
-    "fancyDescription": "Scattered clouds — patches of shadow and light."
+    "fancyDescription": "Scattered clouds \u2014 patches of shadow and light.",
+    "clothing": "Long-sleeve shirt, jeans, comfortable sneakers"
   },
   {
     "id": 803,
     "main": "Clouds",
     "description": "broken clouds: 51-84%",
     "icon": "04d",
-    "fancyDescription": "Broken clouds — a mix of sun and overcast moods."
+    "fancyDescription": "Broken clouds \u2014 a mix of sun and overcast moods.",
+    "clothing": "Light hoodie, jeans, baseball cap"
   },
   {
     "id": 804,
     "main": "Clouds",
     "description": "overcast clouds: 85-100%",
     "icon": "04d",
-    "fancyDescription": "Overcast — full cloud cover, soft light all around."
+    "fancyDescription": "Overcast \u2014 full cloud cover, soft light all around.",
+    "clothing": "Light hoodie, long-sleeve shirt, baseball cap"
   }
 ]

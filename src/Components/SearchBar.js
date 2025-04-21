@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, {useEffect, useState} from "react";
 
 const API_KEY = process.env.REACT_APP_API_KEY;
 
@@ -27,14 +27,39 @@ function SearchBar({ onSearch, units, setUnits }) {
         setSuggestions([]);
     };
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        if (input.trim()) {
-            onSearch(input);
-            setSuggestions([]);
-            setInput("");
+        if (!input.trim()) return;
+
+        try {
+            const res = await fetch(
+                `https://api.openweathermap.org/geo/1.0/direct?q=${input}&limit=1&appid=${API_KEY}`
+            );
+            const data = await res.json();
+
+            if (data.length > 0) {
+                onSearch({ lat: data[0].lat, lon: data[0].lon });
+                setInput(`${data[0].name}, ${data[0].country}`);
+                setSuggestions([]);
+            } else {
+                alert("City not found");
+            }
+        } catch (err) {
+            console.error(err);
         }
     };
+
+    useEffect(() => {
+        const handleClickOutside = (e) => {
+            if (!e.target.closest(".weather__search")) {
+                setSuggestions([]);
+            }
+        };
+        document.addEventListener("click", handleClickOutside);
+        return () => document.removeEventListener("click", handleClickOutside);
+    }, []);
+
+
 
     return (
         <div className="weather__header">

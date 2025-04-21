@@ -9,7 +9,7 @@ function Recommendation({ data }) {
     const text = conditions.find(item => item.id === data.weather[0].id);
     console.log(text);
 
-    return <div className="weather__convenience show">{text?.fancyDescription}</div>;
+    return <div className="weather__convenience show">{text?.fancyDescription} {text?.clothing}</div>;
 }
 
 export default Recommendation;
