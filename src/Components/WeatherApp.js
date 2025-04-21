@@ -5,9 +5,9 @@ import Recommendation from "./Recommendation";
 import VideoBackground from "./VideoBackground";
 import "./../App.css";
 
-const API_KEY = "69605561ac6622711e149e588ecd5411";
+const API_KEY = '69605561ac6622711e149e588ecd5411'
 
-const randomCities = ["Paris", "New York", "Tokyo", "Sydney", "Moscow", "Rio", "Berlin", "Toronto", "Rome", "Istanbul"];
+// const randomCities = ["Paris", "New York", "Tokyo", "Sydney", "Moscow", "Rio", "Berlin", "Toronto", "Rome", "Istanbul"];
 
 function WeatherApp() {
     const [city, setCity] = useState("London");
@@ -16,21 +16,21 @@ function WeatherApp() {
     const [error, setError] = useState("");
     const [background, setBackground] = useState("default.mp4");
 
-    // inactivity logic
-    useEffect(() => {
-        const resetTimer = () => {
-            clearTimeout(window.inactivityTimeout);
-            window.inactivityTimeout = setTimeout(() => {
-                const random = randomCities[Math.floor(Math.random() * randomCities.length)];
-                setCity(random);
-            }, 10000);
-        };
-        ["click", "mousemove", "scroll", "keydown"].forEach(event =>
-            document.addEventListener(event, resetTimer)
-        );
-        resetTimer();
-        return () => clearTimeout(window.inactivityTimeout);
-    }, []);
+    // // inactivity logic
+    // useEffect(() => {
+    //     const resetTimer = () => {
+    //         clearTimeout(window.inactivityTimeout);
+    //         window.inactivityTimeout = setTimeout(() => {
+    //             const random = randomCities[Math.floor(Math.random() * randomCities.length)];
+    //             setCity(random);
+    //         }, 10000);
+    //     };
+    //     ["click", "mousemove", "scroll", "keydown"].forEach(event =>
+    //         document.addEventListener(event, resetTimer)
+    //     );
+    //     resetTimer();
+    //     return () => clearTimeout(window.inactivityTimeout);
+    // }, []);
 
     useEffect(() => {
         async function fetchWeather() {
