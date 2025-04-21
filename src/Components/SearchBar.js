@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const API_KEY = '69605561ac6622711e149e588ecd5411'
+const API_KEY = process.env.REACT_APP_API_KEY;
 
 function SearchBar({ onSearch, units, setUnits }) {
     const [input, setInput] = useState("");
@@ -22,10 +22,9 @@ function SearchBar({ onSearch, units, setUnits }) {
     };
 
     const handleSelect = (cityObj) => {
-        const fullName = `${cityObj.name}, ${cityObj.country}`;
-        setInput(fullName);
+        onSearch({ lat: cityObj.lat, lon: cityObj.lon });
+        setInput(`${cityObj.name}, ${cityObj.country}`);
         setSuggestions([]);
-        onSearch(cityObj.name); // или передай lat/lon, если хочешь точнее
     };
 
     const handleSubmit = (e) => {

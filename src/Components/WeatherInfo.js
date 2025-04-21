@@ -1,13 +1,11 @@
 import React from "react";
 
 
-function WeatherInfo({ data, units, city }) {
+function WeatherInfo({ data, units}) {
     const iconUrl = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
     function capitalizeLetter(str) {
         return str[0].toUpperCase() + str.slice(1);
     }
-
-
     return (
         <div>
         <div className="weather__body">

@@ -8,13 +8,19 @@ import "./../App.css";
 const API_KEY = process.env.REACT_APP_API_KEY;
 
 // const randomCities = ["Paris", "New York", "Tokyo", "Sydney", "Moscow", "Rio", "Berlin", "Toronto", "Rome", "Istanbul"];
+const DEFAULT_CITY = {
+    name: "London",
+    lat: 51.5085,
+    lon: -0.1257
+};
 
 function WeatherApp() {
-    const [city, setCity] = useState("London");
+    // const [city, setCity] = useState("London");
     const [units, setUnits] = useState("metric");
     const [weather, setWeather] = useState(null);
     const [error, setError] = useState("");
     const [background, setBackground] = useState("default.mp4");
+    const [coords, setCoords] = useState({lat: DEFAULT_CITY.lat, lon: DEFAULT_CITY.lon});
 
     // // inactivity logic
     // useEffect(() => {
@@ -33,20 +39,26 @@ function WeatherApp() {
     // }, []);
 
     useEffect(() => {
-        async function fetchWeather() {
+        if (!coords.lat || !coords.lon) return;
+
+        const fetchWeather = async () => {
             try {
-                const res = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=${units}`);
-                if (!res.ok) throw new Error("City not found");
+                const res = await fetch(
+                    `https://api.openweathermap.org/data/2.5/weather?lat=${coords.lat}&lon=${coords.lon}&appid=${API_KEY}&units=metric`
+                );
+                if (!res.ok) throw new Error("Weather not found");
                 const data = await res.json();
                 setWeather(data);
                 setError("");
-                updateBackground(data);
+                updateBackground(data)
             } catch (e) {
                 setError("City not found. Try again.");
             }
-        }
+        };
+
         fetchWeather();
-    }, [city, units]);
+    }, [coords]);
+
 
     function updateBackground(data) {
         const condition = data.weather[0].main;
@@ -70,9 +82,9 @@ function WeatherApp() {
     return (
         <div className="container">
             <VideoBackground src={background} />
-            <SearchBar onSearch={setCity} units={units} setUnits={setUnits} />
+            <SearchBar onSearch={setCoords} units={units} setUnits={setUnits} />
             {error && <p className="error-message">{error}</p>}
-            {weather && <WeatherInfo data={weather} city={city} units={units} />}
+            {weather && <WeatherInfo data={weather} units={units} />}
             {weather && <Recommendation data={weather} />}
         </div>
     );
