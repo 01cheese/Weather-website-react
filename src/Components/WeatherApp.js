@@ -51,19 +51,21 @@ function WeatherApp() {
     function updateBackground(data) {
         const condition = data.weather[0].main;
         const isDay = data.dt >= data.sys.sunrise && data.dt <= data.sys.sunset;
-
+        console.log(isDay);
         const videos = {
             Clear: isDay ? "default.mp4" : "default.mp4",
-            Clouds: isDay ? "cloudy_day.mp4" : "cloudy_night.mp4",
-            Rain: isDay ? "rain_day.mp4" : "rain_night.mp4",
-            Snow: isDay ? "snow_day.mp4" : "snow_night.mp4",
-            Thunderstorm: isDay ? "thunderstorm_day.mp4" : "thunderstorm_night.mp4",
-            Drizzle: isDay ? "drizzle_day.mp4" : "drizzle_night.mp4",
-            Mist: isDay ? "mist_day.mp4" : "mist_night.mp4",
+            Clouds: isDay ? "default.mp4" : "default.mp4",
+            Rain: isDay ? "default.mp4" : "default.mp4",
+            Snow: isDay ? "default.mp4" : "default.mp4",
+            Thunderstorm: isDay ? "default.mp4" : "default.mp4",
+            Drizzle: isDay ? "default.mp4" : "default.mp4",
+            Mist: isDay ? "default.mp4" : "default.mp4",
         };
+        console.log(videos[condition]);
 
         setBackground(videos[condition] || "default.mp4");
     }
+
 
     return (
         <div className="container">
