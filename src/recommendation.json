@@ -1,0 +1,387 @@
+[
+  {
+    "id": 200,
+    "main": "Thunderstorm",
+    "description": "thunderstorm with light rain",
+    "icon": "11d",
+    "fancyDescription": "A light thunderstorm with a romantic touch of rain rumbling in the skies."
+  },
+  {
+    "id": 201,
+    "main": "Thunderstorm",
+    "description": "thunderstorm with rain",
+    "icon": "11d",
+    "fancyDescription": "Thunderstorm with a steady rain — dramatic skies with the sound of thunder."
+  },
+  {
+    "id": 202,
+    "main": "Thunderstorm",
+    "description": "thunderstorm with heavy rain",
+    "icon": "11d",
+    "fancyDescription": "Heavy rain and thunder — nature’s symphony in full force."
+  },
+  {
+    "id": 210,
+    "main": "Thunderstorm",
+    "description": "light thunderstorm",
+    "icon": "11d",
+    "fancyDescription": "Soft thunder rolls — a warning from above."
+  },
+  {
+    "id": 211,
+    "main": "Thunderstorm",
+    "description": "thunderstorm",
+    "icon": "11d",
+    "fancyDescription": "Classic thunderstorm — stay safe and enjoy the light show."
+  },
+  {
+    "id": 212,
+    "main": "Thunderstorm",
+    "description": "heavy thunderstorm",
+    "icon": "11d",
+    "fancyDescription": "Intense thunderstorm — the sky is roaring with energy."
+  },
+  {
+    "id": 221,
+    "main": "Thunderstorm",
+    "description": "ragged thunderstorm",
+    "icon": "11d",
+    "fancyDescription": "Chaotic thunderstorm — lightning and thunder in an unpredictable dance."
+  },
+  {
+    "id": 230,
+    "main": "Thunderstorm",
+    "description": "thunderstorm with light drizzle",
+    "icon": "11d",
+    "fancyDescription": "Thunderstorm with gentle drizzle — moody and mysterious."
+  },
+  {
+    "id": 231,
+    "main": "Thunderstorm",
+    "description": "thunderstorm with drizzle",
+    "icon": "11d",
+    "fancyDescription": "Thunderstorm with drizzle — soft rain meets roaring skies."
+  },
+  {
+    "id": 232,
+    "main": "Thunderstorm",
+    "description": "thunderstorm with heavy drizzle",
+    "icon": "11d",
+    "fancyDescription": "A heavy drizzle and thunder — stormy and surreal."
+  },
+  {
+    "id": 300,
+    "main": "Drizzle",
+    "description": "light intensity drizzle",
+    "icon": "09d",
+    "fancyDescription": "Light drizzle — a barely-there mist, like a whisper of rain."
+  },
+  {
+    "id": 301,
+    "main": "Drizzle",
+    "description": "drizzle",
+    "icon": "09d",
+    "fancyDescription": "Drizzle — calm and damp, the sky is gently crying."
+  },
+  {
+    "id": 302,
+    "main": "Drizzle",
+    "description": "heavy intensity drizzle",
+    "icon": "09d",
+    "fancyDescription": "Heavy drizzle — enough to soak you without a downpour."
+  },
+  {
+    "id": 310,
+    "main": "Drizzle",
+    "description": "light intensity drizzle rain",
+    "icon": "09d",
+    "fancyDescription": "Soft drizzle rain — floating mist and moist air."
+  },
+  {
+    "id": 311,
+    "main": "Drizzle",
+    "description": "drizzle rain",
+    "icon": "09d",
+    "fancyDescription": "Drizzle rain — consistent and calming."
+  },
+  {
+    "id": 312,
+    "main": "Drizzle",
+    "description": "heavy intensity drizzle rain",
+    "icon": "09d",
+    "fancyDescription": "Heavy drizzle rain — thick and endless like a foggy dream."
+  },
+  {
+    "id": 313,
+    "main": "Drizzle",
+    "description": "shower rain and drizzle",
+    "icon": "09d",
+    "fancyDescription": "Shower rain and drizzle — short bursts of gentle rain."
+  },
+  {
+    "id": 314,
+    "main": "Drizzle",
+    "description": "heavy shower rain and drizzle",
+    "icon": "09d",
+    "fancyDescription": "Heavy showers with drizzle — moody weather for a cozy day inside."
+  },
+  {
+    "id": 321,
+    "main": "Drizzle",
+    "description": "shower drizzle",
+    "icon": "09d",
+    "fancyDescription": "Shower drizzle — soft droplets falling in rhythm."
+  },
+  {
+    "id": 500,
+    "main": "Rain",
+    "description": "light rain",
+    "icon": "10d",
+    "fancyDescription": "Light rain — refreshing and tranquil."
+  },
+  {
+    "id": 501,
+    "main": "Rain",
+    "description": "moderate rain",
+    "icon": "10d",
+    "fancyDescription": "Moderate rain — perfect background noise for deep thoughts."
+  },
+  {
+    "id": 502,
+    "main": "Rain",
+    "description": "heavy intensity rain",
+    "icon": "10d",
+    "fancyDescription": "Heavy rain — loud, soaking, and cleansing."
+  },
+  {
+    "id": 503,
+    "main": "Rain",
+    "description": "very heavy rain",
+    "icon": "10d",
+    "fancyDescription": "Very heavy rain — like walking through a waterfall."
+  },
+  {
+    "id": 504,
+    "main": "Rain",
+    "description": "extreme rain",
+    "icon": "10d",
+    "fancyDescription": "Extreme rain — torrential, fierce, and unstoppable."
+  },
+  {
+    "id": 511,
+    "main": "Rain",
+    "description": "freezing rain",
+    "icon": "13d",
+    "fancyDescription": "Freezing rain — slick, cold, and dangerous underfoot."
+  },
+  {
+    "id": 520,
+    "main": "Rain",
+    "description": "light intensity shower rain",
+    "icon": "09d",
+    "fancyDescription": "Light shower rain — quick, playful sprinkles from the sky."
+  },
+  {
+    "id": 521,
+    "main": "Rain",
+    "description": "shower rain",
+    "icon": "09d",
+    "fancyDescription": "Shower rain — here one moment, gone the next."
+  },
+  {
+    "id": 522,
+    "main": "Rain",
+    "description": "heavy intensity shower rain",
+    "icon": "09d",
+    "fancyDescription": "Intense shower rain — sudden and soaking."
+  },
+  {
+    "id": 531,
+    "main": "Rain",
+    "description": "ragged shower rain",
+    "icon": "09d",
+    "fancyDescription": "Ragged showers — unpredictable bursts of rain and wind."
+  },
+  {
+    "id": 600,
+    "main": "Snow",
+    "description": "light snow",
+    "icon": "13d",
+    "fancyDescription": "Light snow — gentle flakes dancing through the air."
+  },
+  {
+    "id": 601,
+    "main": "Snow",
+    "description": "snow",
+    "icon": "13d",
+    "fancyDescription": "Snow — a calm, white blanket covers everything."
+  },
+  {
+    "id": 602,
+    "main": "Snow",
+    "description": "heavy snow",
+    "icon": "13d",
+    "fancyDescription": "Heavy snow — thick flakes falling in silence."
+  },
+  {
+    "id": 611,
+    "main": "Snow",
+    "description": "sleet",
+    "icon": "13d",
+    "fancyDescription": "Sleet — frozen droplets tapping on your coat."
+  },
+  {
+    "id": 612,
+    "main": "Snow",
+    "description": "light shower sleet",
+    "icon": "13d",
+    "fancyDescription": "Light shower sleet — a chilly, mixed bag from the clouds."
+  },
+  {
+    "id": 613,
+    "main": "Snow",
+    "description": "shower sleet",
+    "icon": "13d",
+    "fancyDescription": "Shower sleet — brief, cold, and sharp."
+  },
+  {
+    "id": 615,
+    "main": "Snow",
+    "description": "light rain and snow",
+    "icon": "13d",
+    "fancyDescription": "Light rain and snow — winter is undecided today."
+  },
+  {
+    "id": 616,
+    "main": "Snow",
+    "description": "rain and snow",
+    "icon": "13d",
+    "fancyDescription": "Rain and snow — a cold clash of the seasons."
+  },
+  {
+    "id": 620,
+    "main": "Snow",
+    "description": "light shower snow",
+    "icon": "13d",
+    "fancyDescription": "Light shower snow — fluttering and brief like a snow whisper."
+  },
+  {
+    "id": 621,
+    "main": "Snow",
+    "description": "shower snow",
+    "icon": "13d",
+    "fancyDescription": "Shower snow — playful bursts of snow from the sky."
+  },
+  {
+    "id": 622,
+    "main": "Snow",
+    "description": "heavy shower snow",
+    "icon": "13d",
+    "fancyDescription": "Heavy shower snow — thick waves of snow sweeping through."
+  },
+  {
+    "id": 701,
+    "main": "Mist",
+    "description": "mist",
+    "icon": "50d",
+    "fancyDescription": "Misty air — dreamy and quiet surroundings."
+  },
+  {
+    "id": 711,
+    "main": "Smoke",
+    "description": "smoke",
+    "icon": "50d",
+    "fancyDescription": "Smoke in the air — hazy and mysterious."
+  },
+  {
+    "id": 721,
+    "main": "Haze",
+    "description": "haze",
+    "icon": "50d",
+    "fancyDescription": "Hazy view — everything seems just out of focus."
+  },
+  {
+    "id": 731,
+    "main": "Dust",
+    "description": "sand/dust whirls",
+    "icon": "50d",
+    "fancyDescription": "Dust whirls — swirling particles dancing in the wind."
+  },
+  {
+    "id": 741,
+    "main": "Fog",
+    "description": "fog",
+    "icon": "50d",
+    "fancyDescription": "Thick fog — visibility is low, time for caution."
+  },
+  {
+    "id": 751,
+    "main": "Sand",
+    "description": "sand",
+    "icon": "50d",
+    "fancyDescription": "Sand in the air — dry and windblown."
+  },
+  {
+    "id": 761,
+    "main": "Dust",
+    "description": "dust",
+    "icon": "50d",
+    "fancyDescription": "Dusty air — everything feels a little grittier."
+  },
+  {
+    "id": 762,
+    "main": "Ash",
+    "description": "volcanic ash",
+    "icon": "50d",
+    "fancyDescription": "Volcanic ash — rare, eerie, and dramatic skies."
+  },
+  {
+    "id": 771,
+    "main": "Squall",
+    "description": "squalls",
+    "icon": "50d",
+    "fancyDescription": "Squalls — wild gusts and shifting winds."
+  },
+  {
+    "id": 781,
+    "main": "Tornado",
+    "description": "tornado",
+    "icon": "50d",
+    "fancyDescription": "Tornado — nature’s spinning fury, seek shelter!"
+  },
+  {
+    "id": 800,
+    "main": "Clear",
+    "description": "clear sky",
+    "icon": "01d",
+    "fancyDescription": "Clear skies — sunny and perfect for adventures."
+  },
+  {
+    "id": 801,
+    "main": "Clouds",
+    "description": "few clouds: 11-25%",
+    "icon": "02d",
+    "fancyDescription": "Few clouds — mostly sunny with character."
+  },
+  {
+    "id": 802,
+    "main": "Clouds",
+    "description": "scattered clouds: 25-50%",
+    "icon": "03d",
+    "fancyDescription": "Scattered clouds — patches of shadow and light."
+  },
+  {
+    "id": 803,
+    "main": "Clouds",
+    "description": "broken clouds: 51-84%",
+    "icon": "04d",
+    "fancyDescription": "Broken clouds — a mix of sun and overcast moods."
+  },
+  {
+    "id": 804,
+    "main": "Clouds",
+    "description": "overcast clouds: 85-100%",
+    "icon": "04d",
+    "fancyDescription": "Overcast — full cloud cover, soft light all around."
+  }
+]

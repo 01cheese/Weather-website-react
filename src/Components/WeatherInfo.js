@@ -3,8 +3,7 @@ import React from "react";
 
 function WeatherInfo({ data, units, city }) {
     const iconUrl = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
-    console.log(city);
-    console.log(data.main.temp)
+
 
     return (
         <div>
